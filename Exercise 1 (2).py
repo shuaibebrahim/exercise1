@@ -13,11 +13,11 @@ print("Hello", name, "you are", age, "years old!")
 # Question 2: Integer Operations
 
 # TODO: Ask the user for the length of a rectangle and store it as an integer
-print("length of rectangle")
+print("length of rectangle = 5")
 length = 5
 
 # TODO: Ask the user for the width of a rectangle and store it as an integer
-print("width of rectangle")
+print("width of rectangle = 6")
 width = 6
 # TODO: Calculate the area of the rectangle
 print("calculate area")
@@ -28,11 +28,9 @@ print("the area of the rectangle is:", area)
 # Question 3: Working with Floats
 
 # TODO: Ask the user for a temperature in Celsius and store it as a float
-print("temperature in celcius")
+print("temperature in celcius = 6.5")
 celcius = 6.5
-# TODO: Convert the temperature to Fahrenheit using the formula: (C * 9/5) + 32
-print("convert temperature to fahrenheit") 
-fahrenheit = (celcius *9/5)
+# TODO: Convert the temperature to Fahrenheit using the formula: (C * 9/5) + 32 
+fahrenheit = (celcius *9/5) + 32
 # TODO: Print the result rounded to two decimal places
-print("results rounded to two decimal places")
 print("the temperature in fahrenheit is", round(fahrenheit, 2))
